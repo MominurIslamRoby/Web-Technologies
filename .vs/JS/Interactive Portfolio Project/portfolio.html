@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>My Portfolio</h1>
+
+        <button id="themeBtn">Dark Mode</button>
+
+        <h2 id="greeting"></h2>
+
+        <p id="clock"></p>
+
+    </header>
+
+    <nav>
+
+        <button onclick="showSection('about')">About</button>
+
+        <button onclick="showSection('projects')">Projects</button>
+
+        <button onclick="showSection('contact')">Contact</button>
+
+    </nav>
+
+    <section id="about">
+
+        <img src="profile.jpg" alt="Profile Picture">
+
+        <h2>Md. Mominur Islam Roby</h2>
+
+        <h3>Computer Science & Engineering</h3>
+
+        <p>American International University-Bangladesh (AIUB)</p>
+
+        <p><strong>Student ID:</strong> 22-48681-3</p>
+
+        <p class="bio">
+            I am interested in web development, software engineering, and modern
+            technologies. I enjoy learning new skills and building practical
+            projects that solve real-world problems.
+        </p>
+
+    </section>
+
+    <section id="projects" class="hidden">
+
+        <h2>My Projects</h2>
+
+        <div class="project">
+
+            <h3>Ataur Battery House Management System</h3>
+
+            <p>
+                Inventory and sales management system for a battery business.
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>Help Your Neighbour</h3>
+
+            <p>
+                A platform that connects nearby people to request and provide help.
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                A responsive portfolio website created using HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="hidden">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <small id="nameError"></small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <small id="emailError"></small>
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+            <small id="messageError"></small>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Md. Mominur Islam Roby | AIUB | Web Technologies</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

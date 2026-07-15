@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header 
+{
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 
+{
+    margin-bottom: 10px;
+}
+
+#greeting 
+{
+    margin-top: 10px;
+}
+
+#clock 
+{
+    margin-top: 8px;
+}
+
+#themeBtn 
+{
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+nav 
+{
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav button 
+{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+section 
+{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+#about 
+{
+    text-align: center;
+}
+
+#about img 
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#about h2 
+{
+    margin-bottom: 10px;
+}
+
+#about h3 
+{
+    margin-bottom: 10px;
+}
+
+.bio 
+{
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.project 
+{
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+.project h3 
+{
+    margin-bottom: 10px;
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label 
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea 
+{
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+textarea 
+{
+    height: 120px;
+}
+
+form button 
+{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+small 
+{
+    display: block;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer 
+{
+    text-align: center;
+    background-color: #0066cc;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.hidden 
+{
+    display: none;
+}
+
+.dark-mode 
+{
+    background-color: #222222;
+    color: white;
+}
+
+.dark-mode header 
+{
+    background-color: #111111;
+}
+
+.dark-mode footer 
+{
+    background-color: #111111;
+}
+
+.dark-mode section 
+{
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode nav button 
+{
+    background-color: #555555;
+}
+
+.dark-mode #themeBtn 
+{
+    background-color: #dddddd;
+    color: black;
+}
+
+.dark-mode input,
+.dark-mode textarea 
+{
+    background-color: #555555;
+    color: white;
+    border: 1px solid #777777;
+}
